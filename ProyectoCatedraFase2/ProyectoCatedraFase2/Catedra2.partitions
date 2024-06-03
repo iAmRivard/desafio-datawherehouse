@@ -1,0 +1,125 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1900e99b-764f-408d-85d2-189a0fbfa94a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Catedra2</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Factura</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d968486c-2597-4a5e-89e3-b11c47b37ca7">
+          <ID>Factura</ID>
+          <Name>Factura</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ffdc9f48-a95d-4a3b-ad0d-696d418ad843">
+            <DataSourceViewID>Catedra2</DataSourceViewID>
+            <TableID>dbo_Factura_x0024_</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Gaseosa</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="47011e22-d0db-4cbc-9e5a-75307e03aace">
+          <ID>Gaseosa</ID>
+          <Name>Gaseosa</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="864a3a4d-1553-4a52-a0eb-f9c4710b18e7">
+            <DataSourceViewID>Catedra2</DataSourceViewID>
+            <TableID>dbo_Gaseosa_x0024_</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>País</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="005e8854-2468-4a09-ba23-4a56d8751b6b">
+          <ID>País</ID>
+          <Name>País</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="da70a313-cdf1-4403-b3c1-c6034439e984">
+            <DataSourceViewID>Catedra2</DataSourceViewID>
+            <TableID>dbo_País_x0024_</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Sector</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d11e8bad-edc0-4f91-9287-dba167e4d32a">
+          <ID>Sector</ID>
+          <Name>Sector</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c5fd51c5-a24d-4e5f-9961-4c67941b85fd">
+            <DataSourceViewID>Catedra2</DataSourceViewID>
+            <TableID>dbo_Sector_x0024_</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Supervisor</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d055e21d-67e2-49e6-8d45-610b75aa9c68">
+          <ID>Supervisor</ID>
+          <Name>Supervisor</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d6bba163-838a-4a89-8458-204deb1ffdea">
+            <DataSourceViewID>Catedra2</DataSourceViewID>
+            <TableID>dbo_Supervisor_x0024_</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Vendedor</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d0fa50bf-e9f1-43c6-a8e2-991d6046b84b">
+          <ID>Vendedor</ID>
+          <Name>Vendedor</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="681b1b23-ba4b-41cd-9300-4365ef6e2396">
+            <DataSourceViewID>Catedra2</DataSourceViewID>
+            <TableID>dbo_Vendedor_x0024_</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

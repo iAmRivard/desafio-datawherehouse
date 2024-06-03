@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProyectoCatedraFase2", "ProyectoCatedraFase2\ProyectoCatedraFase2.dwproj", "{C243DB5D-EAE1-4601-BD6F-33139AFCB27B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C243DB5D-EAE1-4601-BD6F-33139AFCB27B}.Development|Default.ActiveCfg = Development
+		{C243DB5D-EAE1-4601-BD6F-33139AFCB27B}.Development|Default.Build.0 = Development
+		{C243DB5D-EAE1-4601-BD6F-33139AFCB27B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B091574-FCBD-4058-A698-6916FB10B1DA}
+	EndGlobalSection
+EndGlobal
