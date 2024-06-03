@@ -31,7 +31,6 @@ La explicación se encuentra en el documento PDF en la raíz del proyecto.
 * **Henry Martínez** - *Analista y Documentador* - [HenryAlejandroGuerra](https://github.com/HenryAlejandroGuerra)
 * **José Figueroa** - *Analista y Documentador* - [fjose4210](https://github.com/fjose4210)
 * **Erick García** - *Analista y Documentador* - [iAmRivard](https://github.com/iAmRivard)
-* **Jairo Ramos** - *Analista y Documentador* - [Jairojramos](https://github.com/Jairojramos)
 * **Ángel Rivera** - *Analista y Documentador* - [AngelVDCRivera](https://github.com/AngelVDCRivera)
 
 ## Licencia 📄
