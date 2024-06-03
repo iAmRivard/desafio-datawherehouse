@@ -1,5 +1,5 @@
-# Desafio-2
-Proyecto de Desafío 2 para la Asignatura de Datawarehouse y Minería de Datos
+# Proyecto Etapa Final
+Proyecto etapa Final para la Asignatura de Datawarehouse y Minería de Datos
 
 ## Comenzando 🚀
 
